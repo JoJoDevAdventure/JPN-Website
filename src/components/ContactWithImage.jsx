@@ -14,7 +14,7 @@ const ContactWithImage = () => {
         <div className="flex text-center gap-10 justify-center items-center">
           <p className="font-light"> lasvegas@jpn-ent.net</p>
           <NavLink
-            to="/contact"
+            to="./assets/contact"
             className="bg-white hover:bg-transparent hover:text-white text-[#0D7685] font-semibold py-2 px-4 border-[#ffffff] border-2  "
           >
             Contact Us

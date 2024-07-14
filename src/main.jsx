@@ -11,7 +11,7 @@ import Services from './routes/Services';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <Routes>
-      <Route path="/JPN-website/" element={<App />}>
+      <Route path="/JPN-Website/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="our-work" element={<OurWork />} />
         <Route path="services" element={<Services />} />

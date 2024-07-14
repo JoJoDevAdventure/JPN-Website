@@ -3,7 +3,7 @@ import React from "react";
 import { slideAnimation } from "../config/motion";
 const Header = () => {
   return (
-    <div className="bg-[url('./header.jpg')] bg-background bg-cover bg-bottom h-[90vh]">
+    <div className="bg-[url('/header.jpg')] bg-background bg-cover bg-bottom h-[90vh]">
       <div className="mx-[150px] flex flex-col text-center h-full justify-center pt-10">
         <motion.div {...slideAnimation("up", 0.4)} className="">
           <h1 className="text-[72px] text-white">

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const ContactWithImage = () => {
   return (
-    <div className="bg-[url('./contact.jpg')] bg-cover bg-center w-screen h-[500px] md:h-[500px] mt-[120px] text-center flex flex-col items-center justify-center">
+    <div className="bg-[url('/contact.jpg')] bg-cover bg-center w-screen h-[500px] md:h-[500px] mt-[120px] text-center flex flex-col items-center justify-center">
       <div className="h-[250px] w-[400px] md:w-[500px] bg-[#0D7685] mt-10 justify-between items-center py-6 lg:py-10 px-4 lg:px-10 flex flex-col text-white">
         <h2 className="text-2xl font-medium"> Want To Know More ? </h2>
         <p className="font-light w-[80%] md:w-full">

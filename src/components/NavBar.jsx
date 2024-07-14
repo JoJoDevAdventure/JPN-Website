@@ -20,20 +20,20 @@ const NavBar = () => {
 
         {/* Logo on the left */}
         <div className="flex items-center">
-          <img className="w-24" src="/jpn.png" alt="Logo" />
+          <img className="w-24" src="./jpn.png" alt="Logo" />
         </div>
       </div>
 
       {/* Navigation links in the middle (visible on large screens) */}
       <ul className="hidden md:flex mt-4 md:mt-0 md:flex-grow md:text-l md:font-regular space-x-8 ml-8 justify-end">
         <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/JPN-Website/">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/JPN-Website/services">Services</NavLink>
+          <NavLink to="/services">Services</NavLink>
         </li>
         <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/JPN-Website/our-work">Our Work</NavLink>
+          <NavLink to="/our-work">Our Work</NavLink>
         </li>
         <li className="underline-offset hover:text-[#0D7685]">
           <NavLink to="/contact">Contact</NavLink>

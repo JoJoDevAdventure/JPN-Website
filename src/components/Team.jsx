@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <div className="relative mx-[150px] py-[10px]">
       {/* Title */}
-      <h1 className="text-4xl text-black font-bold mb-12 text-center">
+      <h1 className="text-4xl text-[#0D7685] font-bold mb-12 text-center">
         Team Building the Dream
       </h1>
 
@@ -18,7 +18,7 @@ const Team = () => {
             className="w-full h-72 object-cover mb-4"
           />
           <h3 className="text-2xl font-bold mb-2">John Doe</h3>
-          <p className="text-lg text-gray-600 mb-4 min-h-16">
+          <p className="text-lg text-gray-600 min-h-16">
             Chief Executive Officer
           </p>
           <div className="flex space-x-4">
@@ -63,7 +63,7 @@ const Team = () => {
             className="w-full h-72 object-cover mb-4"
           />
           <h3 className="text-2xl font-bold mb-2">Jane Smith</h3>
-          <p className="text-lg text-gray-600 mb-4 min-h-16">
+          <p className="text-lg text-gray-600 min-h-16">
             Chief Technology Officer
           </p>
           <div className="flex space-x-4">

@@ -5,7 +5,7 @@ const About = () => {
     <div className=" bg-[#DCDCDC]">
       <div className="flex flex-col md:flex-row items-center my-0 m-[150px]">
         <div className="md:w-1/2 p-4 md:pr-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D7685]">
+          <h2 className="text-[42px] font-bold mb-4 text-[#0D7685]">
             The Message <br /> We Want to Convey
           </h2>
           <p className="text-lg md:text-xl">

@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Bebas Regular';
+    src: url('./fonts/Bebas-Regular.otf') format('truetype'); /* Adjust the path according to your project structure */
+}
 
 #root {
     padding-top: 80px; /* Adjust according to the height of your navbar */
@@ -16,3 +22,7 @@ body::-webkit-scrollbar {
     text-decoration: underline;
     text-underline-offset: 4px; /* Adjust this value to increase or decrease the space */
   }
+
+  h1, h2, h3 {
+    font-family: 'Bebas Regular', sans-serif;
+}

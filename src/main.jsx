@@ -8,11 +8,8 @@ import Home from './routes/Home';
 import OurWork from './routes/OurWork';
 import Services from './routes/Services';
 
-const repoName = '/jojodevadventure.github.io';
-
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Router basename={repoName}>
+    <Router>
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
@@ -22,5 +19,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </Route>
       </Routes>
     </Router>
-  </React.StrictMode>
 );

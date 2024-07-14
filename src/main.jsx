@@ -14,9 +14,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="/our-work" element={<OurWork />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="our-work" element={<OurWork />} />
+          <Route path="services" element={<Services />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </HashRouter>

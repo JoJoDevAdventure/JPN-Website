@@ -27,13 +27,13 @@ const NavBar = () => {
       {/* Navigation links in the middle (visible on large screens) */}
       <ul className="hidden md:flex mt-4 md:mt-0 md:flex-grow md:text-l md:font-regular space-x-8 ml-8 justify-end">
         <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/JPN-website">Home</NavLink>
         </li>
         <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/JPN-website/services">Services</NavLink>
         </li>
         <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/our-work">Our Work</NavLink>
+          <NavLink to="/JPN-website/our-work">Our Work</NavLink>
         </li>
         <li className="underline-offset hover:text-[#0D7685]">
           <NavLink to="/contact">Contact</NavLink>

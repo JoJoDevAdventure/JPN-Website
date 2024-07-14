@@ -27,7 +27,7 @@ const Footer = () => {
         </p>
         <img
           className="w-[60px] md:w-[120px] object-cover"
-          src="./jpn.png"
+          src="/jpn.png"
           alt="Logo"
         />
       </div>

@@ -16,7 +16,7 @@ const Services = () => {
           {/* Card 1 */}
           <div className="bg-white px-8 pt-10 pb-10 flex flex-col text-center items-center justify-between h-auto transition-transform duration-300 hover:shadow-lg hover:shadow-[#0D7685] border-2 border-transparent hover:border-[#0D7685] group">
             <img
-              src="./i1.svg"
+              src="/i1.svg"
               alt="Service 1"
               className="w-24 h-24 object-cover mb-4 transition-transform duration-500"
             />
@@ -37,7 +37,7 @@ const Services = () => {
           {/* Card 2 */}
           <div className="bg-white px-8 pt-10 pb-10 flex flex-col text-center items-center justify-between h-auto transition-transform duration-300 hover:shadow-lg hover:shadow-[#0D7685] border-2 border-transparent hover:border-[#0D7685] group">
             <img
-              src="./i2.svg"
+              src="/i2.svg"
               alt="Service 2"
               className="w-24 h-24 object-cover mb-4 transition-transform duration-500"
             />
@@ -61,7 +61,7 @@ const Services = () => {
           {/* Card 3 */}
           <div className="bg-white px-8 pt-10 pb-10 flex flex-col text-center items-center justify-between h-auto transition-transform duration-300 hover:shadow-lg hover:shadow-[#0D7685] border-2 border-transparent hover:border-[#0D7685] group">
             <img
-              src="./i3.svg"
+              src="/i3.svg"
               alt="Service 3"
               className="w-24 h-24 object-cover mb-4 transition-transform duration-500"
             />

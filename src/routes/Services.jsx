@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
@@ -29,9 +30,9 @@ const Services = () => {
               Operation <br />- Support Partnership Building Interpretation and
               Translation service{" "}
             </p>
-            <button className="font-bold text-white bg-[#0D7685] w-full py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]">
+            <NavLink to="/JPN-Website/services/marketing" className="font-bold text-white bg-[#0D7685] w-full py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]">
               Learn More &rarr;
-            </button>
+            </NavLink>
           </div>
 
           {/* Card 2 */}
@@ -53,9 +54,9 @@ const Services = () => {
               Planners.
               <br />
             </p>
-            <button className="font-bold text-white bg-[#0D7685] w-full py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]">
+            <NavLink to="/JPN-Website/services/entertainment" className="font-bold text-white bg-[#0D7685] w-full py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]">
               Learn More &rarr;
-            </button>
+            </NavLink>
           </div>
 
           {/* Card 3 */}
@@ -75,9 +76,9 @@ const Services = () => {
               - Present for all your festivals and whenever seeking authentic
               Japanese cuisine. <br />
             </p>
-            <button className="font-bold text-white bg-[#0D7685] w-full py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]">
+            <NavLink to="/JPN-Website/services/other" className="font-bold text-white bg-[#0D7685] w-full py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]">
               Learn More &rarr;
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>

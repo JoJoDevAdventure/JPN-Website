@@ -6,6 +6,7 @@ import "./index.css";
 import Contact from "./routes/Contact";
 import Home from "./routes/Home";
 import OurWork from "./routes/OurWork";
+import SakuraRamen from "./routes/OurWork/SakuraRamen";
 import Services from "./routes/Services";
 import Entertainment from "./routes/Services/Entertainment";
 import Marketing from "./routes/Services/Marketing";
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="JPN-Website/our-work" element={<OurWork />} />
+          <Route path="JPN-Website/our-work/sakura-ramen" element={<SakuraRamen />} />
           <Route path="JPN-Website/services" element={<Services />} />
           <Route path="JPN-Website/services/marketing" element={<Marketing />} />
           <Route path="JPN-Website/services/entertainment" element={<Entertainment />} />

@@ -15,7 +15,7 @@ const OurWork = () => {
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Card 1 */}
-          <NavLink to="/service1" className="group">
+          <NavLink to="/JPN-Website/our-work/sakura-ramen" className="group">
             <div className="bg-white flex flex-col items-center justify-center text-center h-auto border-2 border-[#0D7685] transition-transform duration-300 hover:bg-[#0D7685] hover:text-white hover:shadow-2xl shadow-color-[0D7685]">
               <img
                 src="./sakura.jpg"

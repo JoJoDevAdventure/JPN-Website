@@ -13,7 +13,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 w-full bg-white text-black pt-5 pb-5 flex justify-between items-center shadow px-4 md:px-[150px] z-50">
+    <nav className="fixed top-0 w-full bg-white text-black pt-2 pb-2 flex justify-between items-center shadow px-4 md:px-[150px] z-50">
       {/* Menu icon for mobile */}
       <div className="block md:hidden">
         <button onClick={toggleMenu} className="text-black ml-4">

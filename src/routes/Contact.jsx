@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <NavBar />
-      <div className="mx-4 md:mx-[150px] mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div className="mx-4 md:mx-[150px] mt-12 grid grid-cols-1 md:grid-cols-2 md:gap-12 gap-6">
         {/* Left Section */}
         <div className="space-y-2 md:space-y-8">
           <p className="text-lg md:text-xl">Contact Us</p>
@@ -37,7 +37,7 @@ const Contact = () => {
                 <img
                   src="./email.svg"
                   alt="Service 1"
-                  className="h-8 md:h-10 w-auto object-cover"
+                  className="h-7 md:h-10 w-auto object-cover"
                 />
               </div>
               <div>

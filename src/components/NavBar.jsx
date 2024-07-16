@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -7,6 +7,10 @@ const NavBar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top when component mounts
+  }, []);
 
   return (
     <nav className="fixed top-0 w-full bg-white text-black pt-5 pb-5 flex justify-between items-center shadow px-4 md:px-[150px] z-50">

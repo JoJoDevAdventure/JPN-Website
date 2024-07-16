@@ -5,7 +5,7 @@ import NavBar from "../../components/NavBar";
 
 const Marketing = () => {
   return (
-    <div className="bg-[#CFE4E7] min-h-screen">
+    <div className="bg-white min-h-screen">
       <NavBar />
       <div className="mx-4 md:mx-[150px] mt-12">
         <h1 className="text-3xl md:text-5xl font-bold text-[#0D7685] mb-8 md:mb-12 text-center">

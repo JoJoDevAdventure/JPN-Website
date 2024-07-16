@@ -23,14 +23,14 @@ const NavBar = () => {
 
       {/* Logo on the right for mobile */}
       <div className="flex items-center justify-end md:hidden">
-        <img className="w-24" src="/jpn.png" alt="Logo" />
+        <img className="w-24" src="./jpn.png" alt="Logo" />
       </div>
 
       {/* Logo and navigation links for desktop */}
       <div className="hidden md:flex items-center justify-between w-full space-x-2">
         {/* Logo on the left */}
         <div className="flex items-center">
-          <img className="w-24" src="/jpn.png" alt="Logo" />
+          <img className="w-24" src="./jpn.png" alt="Logo" />
         </div>
 
         {/* Navigation links */}

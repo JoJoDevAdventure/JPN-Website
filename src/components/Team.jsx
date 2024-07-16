@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -107,9 +108,9 @@ const Team = () => {
 
       {/* Contact Us Button */}
       <div className="flex justify-center mt-12">
-        <button className="bg-[#0D7685] text-white px-8 py-3 font-bold transition hover:bg-[#095a65]">
+        <NavLink to="/JPN-Website/contact" className="bg-[#0D7685] text-white px-8 py-3 font-bold transition hover:bg-[#095a65]">
           Contact Us
-        </button>
+        </NavLink>
       </div>
     </div>
   );

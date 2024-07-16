@@ -10,13 +10,13 @@ const Footer = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
-            <NavLink to="/services">Services</NavLink>
+            <NavLink to="/JPN-Website/services">Services</NavLink>
           </li>
           <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
-            <NavLink to="/our-work">Our Work</NavLink>
+            <NavLink to="/JPN-Website/our-work">Our Work</NavLink>
           </li>
           <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/JPN-Website/contact">Contact</NavLink>
           </li>
         </ul>
       </div>

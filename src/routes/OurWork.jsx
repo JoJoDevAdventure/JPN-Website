@@ -7,7 +7,7 @@ const OurWork = () => {
   return (
     <div className="bg-[#CFE4E7] min-h-screen">
       <NavBar />
-      <div className="relative text-black mx-4 md:mx-[150px]">
+      <div className="relative text-black mx-4 md:mx-[150px] h-[60vh]">
         {/* Title */}
         <h1 className="text-3xl md:text-4xl text-[#0D7685] font-bold py-8 text-center">
           OUR PAST ACHIEVEMENTS

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Service = () => {
   return (
@@ -37,9 +38,9 @@ const Service = () => {
               experience and knowledge, we tailor solutions to meet the specific
               needs of each client.
             </p>
-            <button className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
+            <NavLink to="/JPN-Website/services/marketing" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
               Learn More &rarr;
-            </button>
+            </NavLink>
           </div>
 
           {/* Card 2 */}
@@ -58,9 +59,9 @@ const Service = () => {
               traditional performances, including Yosakoi, Taiko drumming, Tea
               Ceremony, Shodo calligraphy, Kyudo archery, and more.
             </p>
-            <button className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
+            <NavLink to="/JPN-Website/services/entertainment" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
               Learn More &rarr;
-            </button>
+            </NavLink>
           </div>
 
           {/* Card 3 */}
@@ -80,9 +81,9 @@ const Service = () => {
               festivals. We cater to both locals and visitors, offering an
               unforgettable culinary experience.
             </p>
-            <button className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
+            <NavLink to="/JPN-Website/services/other" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
               Learn More &rarr;
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>

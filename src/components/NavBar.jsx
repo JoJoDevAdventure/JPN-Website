@@ -9,36 +9,54 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-white text-black pt-5 pb-5 flex justify-between items-center shadow px-[150px] z-50">
-      <div className="flex flex-row space-x-2 justify-between items-center">
-        {/* Side menu icon for mobile */}
-        <div className="block md:hidden mt-0 self-center">
-          <button onClick={toggleMenu} className="text-black ml-4">
-            {isMenuOpen ? "" : <span className="text-3xl">&#9776;</span>}
-          </button>
-        </div>
+    <nav className="fixed top-0 w-full bg-white text-black pt-5 pb-5 flex justify-between items-center shadow px-4 md:px-[150px] z-50">
+      {/* Menu icon for mobile */}
+      <div className="block md:hidden">
+        <button onClick={toggleMenu} className="text-black ml-4">
+          {isMenuOpen ? (
+            <span className="text-3xl">&#10005;</span>
+          ) : (
+            <span className="text-3xl">&#9776;</span>
+          )}
+        </button>
+      </div>
 
+      {/* Logo on the right for mobile */}
+      <div className="flex items-center justify-end md:hidden">
+        <img className="w-24" src="./jpn.png" alt="Logo" />
+      </div>
+
+      {/* Logo and navigation links for desktop */}
+      <div className="hidden md:flex items-center justify-between w-full space-x-2">
         {/* Logo on the left */}
         <div className="flex items-center">
           <img className="w-24" src="./jpn.png" alt="Logo" />
         </div>
-      </div>
 
-      {/* Navigation links in the middle (visible on large screens) */}
-      <ul className="hidden md:flex mt-4 md:mt-0 md:flex-grow md:text-l md:font-regular space-x-8 ml-8 justify-end">
-        <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/JPN-Website/services">Services</NavLink>
-        </li>
-        <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/JPN-Website/our-work">Our Work</NavLink>
-        </li>
-        <li className="underline-offset hover:text-[#0D7685]">
-          <NavLink to="/JPN-Website/contact">Contact</NavLink>
-        </li>
-      </ul>
+        {/* Navigation links */}
+        <ul className="flex mt-4 md:mt-0 md:flex md:text-lg md:font-regular items-center space-x-8 justify-end">
+          <li className="underline-offset hover:text-[#0D7685]">
+            <NavLink exact to="/JPN-Website/" activeClassName="font-bold">
+              Home
+            </NavLink>
+          </li>
+          <li className="underline-offset hover:text-[#0D7685]">
+            <NavLink to="/JPN-Website/services" activeClassName="font-bold">
+              Services
+            </NavLink>
+          </li>
+          <li className="underline-offset hover:text-[#0D7685]">
+            <NavLink to="/JPN-Website/our-work" activeClassName="font-bold">
+              Our Work
+            </NavLink>
+          </li>
+          <li className="underline-offset hover:text-[#0D7685]">
+            <NavLink to="/JPN-Website/contact" activeClassName="font-bold">
+              Contact
+            </NavLink>
+          </li>
+        </ul>
+      </div>
 
       {/* Side menu */}
       {isMenuOpen && (
@@ -46,30 +64,47 @@ const NavBar = () => {
           className="fixed top-0 left-0 h-screen w-full bg-black/70"
           onClick={toggleMenu}
         >
-          <div className="absolute top-0 left-0 h-[130vh] w-60 bg-gray-900 p-8 z-50">
-            <ul className="text-white ">
+          <div className="absolute top-0 left-0 h-screen w-60 bg-[#0D7685] p-8 z-50">
+            <ul className="text-white">
               <li>
                 <button onClick={toggleMenu} className="text-white mb-4">
-                  {<span className="text-3xl">&#10005;</span>}
+                  <span className="text-3xl">&#10005;</span>
                 </button>
               </li>
               <li className="mb-4">
-                <NavLink to="/" onClick={toggleMenu}>
+                <NavLink
+                  exact
+                  to="/JPN-Website"
+                  activeClassName="text-[#0D7685] font-bold"
+                  onClick={toggleMenu}
+                >
                   Home
                 </NavLink>
               </li>
               <li className="mb-4">
-                <NavLink to="/services" onClick={toggleMenu}>
+                <NavLink
+                  to="/JPN-Website/services"
+                  activeClassName="text-[#0D7685] font-bold"
+                  onClick={toggleMenu}
+                >
                   Services
                 </NavLink>
               </li>
               <li className="mb-4">
-                <NavLink to="/our-work" onClick={toggleMenu}>
+                <NavLink
+                  to="/JPN-Website/our-work"
+                  activeClassName="text-[#0D7685] font-bold"
+                  onClick={toggleMenu}
+                >
                   Our Work
                 </NavLink>
               </li>
               <li className="mb-4">
-                <NavLink to="/contact" onClick={toggleMenu}>
+                <NavLink
+                  to="/JPN-Website/contact"
+                  activeClassName="text-[#0D7685] font-bold"
+                  onClick={toggleMenu}
+                >
                   Contact
                 </NavLink>
               </li>

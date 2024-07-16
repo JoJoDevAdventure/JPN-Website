@@ -2,30 +2,31 @@ import React from "react";
 
 const Team = () => {
   return (
-    <div className="relative mx-[150px] py-[10px]">
+    <div className="relative mx-[20px] md:mx-[150px] py-[10px]">
       {/* Title */}
-      <h1 className="text-4xl text-[#0D7685] font-bold mb-12 text-center">
+      <h1 className="text-4xl md:text-5xl text-[#0D7685] font-bold mb-12 text-center">
         Team Building the Dream
       </h1>
 
       {/* Team Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center items-center">
         {/* Card 1 */}
-        <div className="bg-white flex flex-col items-right justify-self-end text-left w-[250px]">
+        <div className="bg-white flex flex-col items-center md:items-right justify-self-end text-left w-full md:w-[400px] md:max-w-[400px]">
           <img
             src="https://via.placeholder.com/300x300"
             alt="Team Member 1"
             className="w-full h-72 object-cover mb-4"
           />
-          <h3 className="text-2xl font-bold mb-2">John Doe</h3>
-          <p className="text-lg text-gray-600 min-h-16">
+          <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">John Doe</h3>
+          <p className="text-lg md:text-xl text-gray-600 min-h-[3rem]">
             Chief Executive Officer
           </p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 mt-4 md:mt-6">
             <a
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-[#0D7685] hover:text-[#095a65] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,6 +42,7 @@ const Team = () => {
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-[#0D7685] hover:text-[#095a65] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,21 +58,22 @@ const Team = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white flex flex-col items-right justify-self-start text-left w-[250px] ">
+        <div className="bg-white flex flex-col items-center md:items-right justify-self-start text-left w-full md:w-[400px] md:max-w-[400px]">
           <img
             src="https://via.placeholder.com/300x300"
             alt="Team Member 2"
             className="w-full h-72 object-cover mb-4"
           />
-          <h3 className="text-2xl font-bold mb-2">Jane Smith</h3>
-          <p className="text-lg text-gray-600 min-h-16">
+          <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">Jane Smith</h3>
+          <p className="text-lg md:text-xl text-gray-600 min-h-[3rem]">
             Chief Technology Officer
           </p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 mt-4 md:mt-6">
             <a
               href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-[#0D7685] hover:text-[#095a65] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,6 +89,7 @@ const Team = () => {
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-[#0D7685] hover:text-[#095a65] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

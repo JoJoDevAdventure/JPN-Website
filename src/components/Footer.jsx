@@ -5,9 +5,12 @@ const Footer = () => {
   return (
     <div className="px-4 md:px-[150px] py-4 md:py-[3%]">
       <div className="mb-2">
-        <ul className="flex md:text-lg text-sm text-[#0D7685] space-x-4 md:space-x-10 justify-start">
+        <ul className="flex md:text-lg text-[11px] text-[#0D7685] space-x-3 md:space-x-10 justify-start">
           <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
             <NavLink to="/">Home</NavLink>
+          </li>
+          <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
+            <NavLink to="/JPN-Website/company">Company</NavLink>
           </li>
           <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
             <NavLink to="/JPN-Website/services">Services</NavLink>

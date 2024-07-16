@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import "./index.css";
+import Company from "./routes/Company";
 import Contact from "./routes/Contact";
 import Home from "./routes/Home";
 import OurWork from "./routes/OurWork";
@@ -18,11 +19,21 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
+          <Route path="/JPN-Website/company" element={<Company />} />
           <Route path="/JPN-Website/our-work" element={<OurWork />} />
-          <Route path="/JPN-Website/our-work/sakura-ramen" element={<SakuraRamen />} />
+          <Route
+            path="/JPN-Website/our-work/sakura-ramen"
+            element={<SakuraRamen />}
+          />
           <Route path="/JPN-Website/services" element={<Services />} />
-          <Route path="/JPN-Website/services/marketing" element={<Marketing />} />
-          <Route path="/JPN-Website/services/entertainment" element={<Entertainment />} />
+          <Route
+            path="/JPN-Website/services/marketing"
+            element={<Marketing />}
+          />
+          <Route
+            path="/JPN-Website/services/entertainment"
+            element={<Entertainment />}
+          />
           <Route path="/JPN-Website/services/other" element={<Other />} />
           <Route path="/JPN-Website/contact" element={<Contact />} />
         </Route>

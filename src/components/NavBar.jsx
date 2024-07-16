@@ -23,35 +23,35 @@ const NavBar = () => {
 
       {/* Logo on the right for mobile */}
       <div className="flex items-center justify-end md:hidden">
-        <img className="w-24" src="./jpn.png" alt="Logo" />
+        <img className="w-24" src="/jpn.png" alt="Logo" />
       </div>
 
       {/* Logo and navigation links for desktop */}
       <div className="hidden md:flex items-center justify-between w-full space-x-2">
         {/* Logo on the left */}
         <div className="flex items-center">
-          <img className="w-24" src="./jpn.png" alt="Logo" />
+          <img className="w-24" src="/jpn.png" alt="Logo" />
         </div>
 
         {/* Navigation links */}
         <ul className="flex mt-4 md:mt-0 md:flex md:text-lg md:font-regular items-center space-x-8 justify-end">
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink exact to="/JPN-Website/" activeClassName="font-bold">
+            <NavLink exact to="/">
               Home
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/services" activeClassName="font-bold">
+            <NavLink to="/JPN-Website/services">
               Services
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/our-work" activeClassName="font-bold">
+            <NavLink to="/JPN-Website/our-work">
               Our Work
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/contact" activeClassName="font-bold">
+            <NavLink to="/JPN-Website/contact">
               Contact
             </NavLink>
           </li>
@@ -74,7 +74,7 @@ const NavBar = () => {
               <li className="mb-4">
                 <NavLink
                   exact
-                  to="/JPN-Website"
+                  to="/"
                   activeClassName="text-[#0D7685] font-bold"
                   onClick={toggleMenu}
                 >

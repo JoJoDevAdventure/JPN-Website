@@ -50,19 +50,13 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/services">
-              Services
-            </NavLink>
+            <NavLink to="/JPN-Website/services">Services</NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/our-work">
-              Our Work
-            </NavLink>
+            <NavLink to="/JPN-Website/our-work">Our Work</NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/contact">
-              Contact
-            </NavLink>
+            <NavLink to="/JPN-Website/contact">Contact</NavLink>
           </li>
         </ul>
       </div>
@@ -88,6 +82,11 @@ const NavBar = () => {
                   onClick={toggleMenu}
                 >
                   Home
+                </NavLink>
+              </li>
+              <li className="mb-4">
+                <NavLink exact to="/JPN-Website/company">
+                  Company
                 </NavLink>
               </li>
               <li className="mb-4">

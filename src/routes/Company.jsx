@@ -6,7 +6,7 @@ const Company = () => {
   return (
     <div className="bg-white">
       <NavBar />
-      <div className="text-black mx-4 md:mx-[150px] py-8">
+      <div className="text-black mx-4 md:mx-[25%] py-8">
         {/* Title */}
         <h1 className="text-3xl md:text-4xl text-[#0D7685] font-bold py-8 text-center">
           HOW IT BEGAN
@@ -24,7 +24,7 @@ const Company = () => {
         {/* Team Members */}
         <div className="flex flex-col gap-8">
           {/* Team Member 1 */}
-          <div className="flex items-center">
+          <div className="flex items-left md:items-center flex-col-reverse text-left justify-start md:flex-row">
             <div className="flex-1 text-left pr-4">
               <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">
                 Aritomo Hirano
@@ -47,7 +47,7 @@ const Company = () => {
           </div>
 
           {/* Team Member 2 */}
-          <div className="flex items-center">
+          <div className="flex items-left md:items-center flex-col-reverse text-left justify-start md:flex-row">
             <div className="flex-1 text-left pr-4">
               <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">
                 Hidenori Araki

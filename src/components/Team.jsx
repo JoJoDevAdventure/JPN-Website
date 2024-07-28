@@ -12,7 +12,7 @@ const Team = () => {
       {/* Team Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center items-center">
         {/* Card 1 */}
-        <div className="bg-white flex flex-col items-center md:items-right justify-self-end text-left w-[80%] md:w-[300px] md:max-w-[400px]">
+        <div className="bg-white flex flex-col items-center md:items-right justify-self-center md:justify-self-end text-left w-[80%] md:w-[300px] md:max-w-[400px]">
           <img
             src="./arts.jpg"
             alt="Team Member 1"
@@ -67,7 +67,7 @@ const Team = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white flex flex-col items-center md:items-right justify-self-start text-left w-[80%] md:w-[300px] md:max-w-[400px]">
+        <div className="bg-white flex flex-col items-center md:items-right justify-self-center md:justify-self-start text-left w-[80%] md:w-[300px] md:max-w-[400px]">
           <img
             src="./hide.jpg"
             alt="Team Member 2"

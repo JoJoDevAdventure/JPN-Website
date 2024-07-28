@@ -28,33 +28,6 @@ const OurWork = () => {
             </div>
           </NavLink>
 
-          {/* Card 2 */}
-          <NavLink to="/service2" className="group">
-            <div className="bg-white flex flex-col items-center justify-center text-center h-full border-2 border-[#0D7685] transition-transform duration-300 hover:bg-[#0D7685] hover:text-white hover:shadow-2xl shadow-color-[0D7685]">
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Service 2"
-                className="w-full h-[225px] object-cover mb-4 transition-transform duration-500"
-              />
-              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#0D7685] group-hover:text-white">
-                INSERT WORK HERE
-              </h3>
-            </div>
-          </NavLink>
-
-          {/* Card 3 */}
-          <NavLink to="/service3" className="group">
-            <div className="bg-white flex flex-col items-center justify-center text-center h-full border-2 border-[#0D7685] transition-transform duration-300 hover:bg-[#0D7685] hover:text-white hover:shadow-2xl shadow-color-[0D7685]">
-              <img
-                src="https://via.placeholder.com/150"
-                alt="Service 3"
-                className="w-full h-[225px] object-cover mb-4 transition-transform duration-500"
-              />
-              <h3 className="text-xl md:text-2xl font-bold mb-2 text-[#0D7685] group-hover:text-white">
-                INSERT WORK HERE
-              </h3>
-            </div>
-          </NavLink>
         </div>
       </div>
       <Footer />

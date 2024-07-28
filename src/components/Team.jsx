@@ -12,15 +12,23 @@ const Team = () => {
       {/* Team Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center items-center">
         {/* Card 1 */}
-        <div className="bg-white flex flex-col items-center md:items-right justify-self-end text-left w-full md:w-[400px] md:max-w-[400px]">
+        <div className="bg-white flex flex-col items-center md:items-right justify-self-end text-left w-[80%] md:w-[300px] md:max-w-[400px]">
           <img
-            src="https://via.placeholder.com/300x300"
+            src="./arts.jpg"
             alt="Team Member 1"
-            className="w-full h-72 object-cover mb-4"
+            className="w-full h-auto object-cover mb-4"
           />
-          <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">John Doe</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">
+            Aritomo Hirano
+          </h3>
           <p className="text-lg md:text-xl text-gray-600 min-h-[3rem]">
-            Chief Executive Officer
+            Founder & Member
+          </p>
+          <p className="text-m md:text-m text-gray-600 min-h-[9rem]">
+            Seasoned Business Leader with 15+ Years' Experience. Drove growth at
+            a group companies of a well-known Tokyo Stock Exchange listed
+            service industry leaders. Fluent and have strong writing skills in
+            English and Japanese.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-6">
             <a
@@ -59,15 +67,23 @@ const Team = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-white flex flex-col items-center md:items-right justify-self-start text-left w-full md:w-[400px] md:max-w-[400px]">
+        <div className="bg-white flex flex-col items-center md:items-right justify-self-start text-left w-[80%] md:w-[300px] md:max-w-[400px]">
           <img
-            src="https://via.placeholder.com/300x300"
+            src="./hide.jpg"
             alt="Team Member 2"
-            className="w-full h-72 object-cover mb-4"
+            className="w-full h-auto object-cover mb-4"
           />
-          <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">Jane Smith</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">
+            Hidenori Araki
+          </h3>
           <p className="text-lg md:text-xl text-gray-600 min-h-[3rem]">
-            Chief Technology Officer
+            Managing Member
+          </p>
+          <p className="text-m md:text-m text-gray-600 min-h-[9rem]">
+            Passionate Business Development & Marketing professional experienced
+            in providing eclectic range of solutions to blue chip companies from
+            patented mechanical tools to advanced SaaS platforms. Second
+            generation Japanese-American who now calls Las Vegas home.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-6">
             <a
@@ -108,7 +124,10 @@ const Team = () => {
 
       {/* Contact Us Button */}
       <div className="flex justify-center mt-12">
-        <NavLink to="/JPN-Website/contact" className="bg-[#0D7685] text-white px-8 py-3 font-bold transition hover:bg-[#095a65]">
+        <NavLink
+          to="/JPN-Website/contact"
+          className="bg-[#0D7685] text-white px-8 py-3 font-bold transition hover:bg-[#095a65]"
+        >
           Contact Us
         </NavLink>
       </div>

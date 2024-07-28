@@ -48,15 +48,16 @@ const Props = () => {
         </div>
       </div>
 
+      {/* Desktop */}
       <div className="flex-col hidden md:flex">
         {/* First Section */}
-        <div className="flex flex-col md:flex-row bg-[#050505] text-white overflow-hidden">
+        <div className="flex flex-col md:flex-row bg-[#DCDCDC] text-white overflow-hidden">
           <img
             src="./prop1.jpg"
             alt="First Section Image"
-            className="w-full md:w-1/2 h-64 md:h-[400px] object-cover"
+            className="w-full md:w-1/2 h-64 md:h-[400px] object-cover bg-gray-700"
           />
-          <div className="md:w-1/2 bg-white pr-[150px]">
+          <div className="md:w-1/2 bg-[#] pr-[150px]">
             <div className="flex flex-col text-left justify-center bg-[#0D7685] h-[400px] px-6">
               <h3 className="text-3xl font-bold mb-4">
                 Traditional Japanese culture

@@ -1,8 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 const Contact = () => {
+  const [message, setMessage] = useState("");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setMessage("");
+    setIsSending(true);
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    // Append access key for email submission
+    formData.append("access_key", "ac797195-c56a-42dc-924f-ff1ded2a8d6d");
+
+    try {
+      // Submit to Web3Forms for email
+      const emailResponse = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+      const emailData = await emailResponse.json();
+
+      // Check response from Web3Forms
+      if (emailData.success) {
+        setMessage("Message sent successfully!");
+        setIsModalOpen(true);
+        setTimeout(() => {
+          setIsModalOpen(false);
+        }, 5000);
+        form.reset();
+      } else {
+        setMessage("Message not sent, try again later.");
+        throw new Error(emailData.message);
+      }
+    } catch (error) {
+      console.error('Error!', error.message);
+      setMessage(`Error: ${error.message}`);
+    } finally {
+      setIsSending(false);
+    }
+  };
+
   return (
     <div>
       <NavBar />
@@ -23,39 +66,39 @@ const Contact = () => {
               <div className="bg-[#0D7685] text-white h-12 w-12 md:h-16 md:w-16 flex items-center text-center align-middle justify-center">
                 <img
                   src="./phone.svg"
-                  alt="Service 1"
+                  alt="Phone"
                   className="h-8 md:h-12 w-auto object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-lg md:text-2xl font-semibold">Phone</h3>
-                <p className="text-l md:text-xl">+123 456 789</p>
+                <h3 className="text-lg md:text-2xl font-semibold text-[#0D7685]">Phone</h3>
+                <p className="text-l md:text-xl">725-724-9681</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="bg-[#0D7685] text-white h-12 w-12 md:h-16 md:w-16 flex items-center text-center align-middle justify-center">
                 <img
                   src="./email.svg"
-                  alt="Service 1"
+                  alt="Email"
                   className="h-7 md:h-10 w-auto object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-lg md:text-2xl font-semibold">Email</h3>
-                <p className="text-l md:text-xl">contact@yourdomain.com</p>
+                <h3 className="text-lg md:text-2xl font-semibold text-[#0D7685]">Email</h3>
+                <p className="text-l md:text-xl">lasvegas@jpn-ent.net</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="bg-[#0D7685] text-white h-12 w-12 md:h-16 md:w-16 flex items-center text-center align-middle justify-center">
                 <img
                   src="./loc.svg"
-                  alt="Service 1"
+                  alt="Location"
                   className="h-8 md:h-12 w-auto object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-lg md:text-2xl font-semibold">Location</h3>
-                <p className="text-l md:text-xl">123 Street, City, Country</p>
+                <h3 className="text-lg md:text-2xl font-semibold text-[#0D7685]">Location</h3>
+                <p className="text-l md:text-xl">2117 Lookout Point Circle, Las Vegas, NV 89117, USA</p>
               </div>
             </div>
           </div>
@@ -63,7 +106,7 @@ const Contact = () => {
 
         {/* Right Section */}
         <div className="bg-[#0D7685] p-6 md:p-8 text-white">
-          <form className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div className="flex flex-col">
               <label className="text-lg" htmlFor="name">
                 Name
@@ -113,14 +156,31 @@ const Contact = () => {
               ></textarea>
             </div>
             <button
-              className="p-3 bg-white text-[#0D7685] border-2 border-white transition-colors duration-300 hover:bg-transparent hover:text-white w-full"
+              className={`p-3 bg-white text-[#0D7685] border-2 border-white transition-colors duration-300 hover:bg-transparent hover:text-white w-full ${isSending ? "opacity-50 cursor-not-allowed" : ""}`}
               type="submit"
+              disabled={isSending}
             >
-              Submit
+              {isSending ? "Sending..." : "Submit"}
             </button>
           </form>
         </div>
       </div>
+
+      {/* Modal for message status */}
+      {isModalOpen && (
+        <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg">
+            <h1 className="text-lg font-semibold mb-4 text-[#0D7685]">{message}</h1>
+            <button
+              onClick={() => setIsModalOpen(false)}
+              className="bg-[#0D7685] text-white px-4 py-2 rounded-md"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
       <Footer />
     </div>
   );

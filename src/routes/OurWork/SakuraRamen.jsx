@@ -42,12 +42,12 @@ const SakuraRamen = () => {
           </p>
 
           {/* 1st Div */}
-          <div className="flex flex-col-reverse md:flex-row mb-12 gap-10 items-center">
+          <div className="flex flex-col md:flex-row mb-12 gap-10 items-center">
             <div className="md:w-2/3 w-full">
               <h2 className="text-2xl md:text-3xl font-semibold text-[#0D7685] mb-4">
                 SNS Total Marketing
               </h2>
-              <p className="text-base md:text-xl mb-6">
+              <p className="text-base md:text-xl">
                 <strong>Instagram Marketing:</strong> We will be working closely
                 with their dedicated Instagram marketing designer, enhancing
                 Sakura Ramen's online presence and engagement. This initiative
@@ -72,16 +72,16 @@ const SakuraRamen = () => {
           <div className="flex flex-col-reverse md:flex-row mb-12 gap-10 items-center">
             <div className="md:w-1/3 w-full">
               <img
-                src="./sakura5.mp4"
+                src="./sakura5.png"
                 alt="Placeholder Image 5"
-                className="w-[80%] h-auto"
+                className="w-[100%] h-auto"
               />
             </div>
             <div className="md:w-2/3 w-full">
               <h2 className="text-2xl md:text-3xl font-semibold text-[#0D7685] mb-4">
                 Event Participation
               </h2>
-              <p className="text-base md:text-xl mb-6">
+              <p className="text-base md:text-xl">
                 <strong>Event Participation:</strong> We will be assisting
                 Sakura Ramen in participating in key events such as “Bluefin
                 Tuna Cutting Event” collaborating with Omakase Kyara and Tian
@@ -98,12 +98,12 @@ const SakuraRamen = () => {
           </div>
 
           {/* 3rd Div */}
-          <div className="flex flex-col-reverse md:flex-row mb-12 gap-10 items-center">
+          <div className="flex flex-col md:flex-row mb-12 gap-10 items-center">
             <div className="md:w-2/3 w-full">
               <h2 className="text-2xl md:text-3xl font-semibold text-[#0D7685] mb-4">
                 Eye-catching New Menu Items
               </h2>
-              <p className="text-base md:text-xl mb-6">
+              <p className="text-base md:text-xl">
                 Instagrammable Desserts: Considering the introduction of unique,
                 Instagrammable desserts like kakigori (Japanese shaved ice),
                 leveraging specialized equipment to make them stand out.
@@ -120,7 +120,7 @@ const SakuraRamen = () => {
 
           {/* 4th Div */}
           <div className="flex flex-col-reverse md:flex-row mb-12 gap-10 items-center">
-            <div className="md:w-1/3 w-full">
+            <div className="md:w-1/3 w-full flex justify-center">
               <img
                 src="./sakura7.jpg"
                 alt="Placeholder Image 7"
@@ -131,7 +131,7 @@ const SakuraRamen = () => {
               <h2 className="text-2xl md:text-3xl font-semibold text-[#0D7685] mb-4">
                 Gacha Machine Installation
               </h2>
-              <p className="text-base md:text-xl mb-6">
+              <p className="text-base md:text-xl">
                 Novelty Additions: A gacha machine (Japanese toy vending
                 machine) will be installed at Sakura Ramen, adding an element of
                 fun and attracting more customers. We are testing this idea,

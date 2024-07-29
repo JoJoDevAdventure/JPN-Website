@@ -15,7 +15,7 @@ const Company = () => {
           Our story begins at a friend's birthday party in Vegas. It was there
           that we met, and through conversation, discovered we both shared an
           entrepreneurial spirit. The more we talked, the clearer it became:
-          this wasn't just a party chat. We were onto something big. The night
+          this wasn't just a party chat.<br/> We were onto something big. The night
           that started as a simple celebration quickly turned into the beginning
           of an exciting new venture. So, in the heart of Vegas, our partnership
           was born.
@@ -42,29 +42,6 @@ const Company = () => {
             <img
               src="./arts.jpg"
               alt="Aritomo Hirano"
-              className="w-1/3 h-auto object-cover"
-            />
-          </div>
-
-          {/* Team Member 2 */}
-          <div className="flex items-left md:items-center flex-col-reverse text-left justify-start md:flex-row">
-            <div className="flex-1 text-left pr-4">
-              <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">
-                Hidenori Araki
-              </h3>
-              <p className="text-lg md:text-xl text-gray-600 min-h-[3rem]">
-                Managing Member
-              </p>
-              <p className="text-m md:text-m text-gray-600 min-h-[9rem]">
-                Passionate Business Development & Marketing professional experienced
-                in providing eclectic range of solutions to blue chip companies from
-                patented mechanical tools to advanced SaaS platforms. Second
-                generation Japanese-American who now calls Las Vegas home.
-              </p>
-            </div>
-            <img
-              src="./hide.jpg"
-              alt="Hidenori Araki"
               className="w-1/3 h-auto object-cover"
             />
           </div>

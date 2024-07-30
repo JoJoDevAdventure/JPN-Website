@@ -27,7 +27,7 @@ const Company = () => {
           <div className="flex items-left md:items-center flex-col-reverse text-left justify-start md:flex-row">
             <div className="flex-1 text-left pr-4">
               <h3 className="text-2xl md:text-3xl font-bold mb-2 text-[#0D7685]">
-                Aritomo Hirano
+                Art Hirano
               </h3>
               <p className="text-lg md:text-xl text-gray-600 min-h-[3rem]">
                 Founder & Member

@@ -34,7 +34,7 @@ const NavBar = () => {
       <div className="hidden md:flex items-center justify-between w-full space-x-2">
         {/* Logo on the left */}
         <div className="flex items-center">
-          <img className="w-24" src="./jpn.png" alt="Logo" />
+          <img className="w-28" src="./jpn.png" alt="Logo" />
         </div>
 
         {/* Navigation links */}
@@ -45,15 +45,15 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink exact to="/JPN-Website/company">
-              Company
-            </NavLink>
-          </li>
-          <li className="underline-offset hover:text-[#0D7685]">
             <NavLink to="/JPN-Website/services">Services</NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
             <NavLink to="/JPN-Website/our-work">Our Work</NavLink>
+          </li>
+          <li className="underline-offset hover:text-[#0D7685]">
+            <NavLink exact to="/JPN-Website/company">
+              Company
+            </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
             <NavLink to="/JPN-Website/contact">Contact</NavLink>
@@ -85,11 +85,6 @@ const NavBar = () => {
                 </NavLink>
               </li>
               <li className="mb-4">
-                <NavLink exact to="/JPN-Website/company">
-                  Company
-                </NavLink>
-              </li>
-              <li className="mb-4">
                 <NavLink
                   to="/JPN-Website/services"
                   activeClassName="text-[#0D7685] font-bold"
@@ -105,6 +100,11 @@ const NavBar = () => {
                   onClick={toggleMenu}
                 >
                   Our Work
+                </NavLink>
+              </li>
+              <li className="mb-4">
+                <NavLink exact to="/JPN-Website/company">
+                  Company
                 </NavLink>
               </li>
               <li className="mb-4">

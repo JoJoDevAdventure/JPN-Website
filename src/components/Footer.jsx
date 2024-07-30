@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="border-b-2 border-[#0D7685] w-full h-1 mb-4"></div>
       <div className="flex flex-col md:flex-row justify-between items-center">
         <p className="text-[#0D7685] text-xs md:text-sm mb-2 md:mb-0">
-          Copyright © 2024 JPN. All Rights Reserved.
+        Copyright © JPN Entertainment LLC. All Rights Reserved.
         </p>
         <img
           className="w-24 md:w-32 h-auto object-cover"

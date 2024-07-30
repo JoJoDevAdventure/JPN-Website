@@ -14,7 +14,7 @@ const Props = () => {
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-[#0D7685] bg-opacity-75 text-center px-6 py-6 md:py-12">
             <div className="text-white">
               <h3 className="text-xl md:text-3xl font-bold mb-4">
-                Traditional Japanese culture
+                Japanese culture
               </h3>
               <p className="text-sm md:text-lg">
                 such as kimono, tea ceremony, and Yosakoi, as well as subculture
@@ -60,7 +60,7 @@ const Props = () => {
           <div className="md:w-1/2 bg-[#] pr-[150px]">
             <div className="flex flex-col text-left justify-center bg-[#0D7685] h-[400px] px-6">
               <h3 className="text-3xl font-bold mb-4">
-                Traditional Japanese culture
+                Japanese culture
               </h3>
               <p className="text-lg">
                 such as kimono, tea ceremony, and Yosakoi, as well as subculture

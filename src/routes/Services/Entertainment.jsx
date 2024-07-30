@@ -16,46 +16,46 @@ const Entertainment = () => {
         </p>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          Why Incorporate Japanese Traditional Arts into Your Events:
+          Why Incorporate Japanese Traditional Arts into Your Events
         </h2>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          1. Foster Unforgettable Bonds:
+          Foster Unforgettable Bonds:
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           Engage your attendees in a unique and memorable experience that goes beyond mere spectatorship. Our interactive workshops encourage participation, promoting camaraderie and a sense of shared purpose among your guests.
         </p>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          2. Create Lasting Impressions:
+          Create Lasting Impressions
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           Leave a lasting impression with the vibrant and awe-inspiring performances of Japanese traditional arts. These captivating displays will serve as the highlight of your event, etching cherished memories into the minds of your attendees.
         </p>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          3. Introduce Japanese Culture:
+          Introduce Japanese Culture
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           Immerse your guests in the rich tapestry of Japanese culture through the captivating lens of traditional arts. Our performances provide an authentic and meaningful introduction to Japan’s heritage, making them ideal for international gatherings.
         </p>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          4. Experienced Professional Performer Teams:
+          Experienced Professional Performer Teams
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           Our extensive network of professional performers based in Las Vegas and California brings years of experience and expertise to every event. We carefully curate performances that align perfectly with your unique event requirements.
         </p>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          5. Comprehensive Support from Planning to Execution:
+          Comprehensive Support from Planning to Execution
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           We provide comprehensive support for every aspect of your event, from selecting the perfect performances to handling stage setup, sound and lighting, and overall event coordination. Our goal is to minimize your workload and ensure a seamless and successful event experience.
         </p>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          6. For Convention Organizers, Booth Exhibitors, and Meeting Planners:
+          For Convention Organizers, Booth Exhibitors, and Meeting Planners
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           If you are a convention organizer, booth exhibitor, or meeting planner seeking to elevate your event with the captivating allure of Japanese traditional arts, we invite you to contact us today.

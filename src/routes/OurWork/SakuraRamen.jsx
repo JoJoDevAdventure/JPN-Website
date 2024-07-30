@@ -48,15 +48,13 @@ const SakuraRamen = () => {
                 SNS Total Marketing
               </h2>
               <p className="text-base md:text-xl">
-                <strong>Instagram Marketing:</strong> We will be working closely
+                <strong>Instagram Marketing:</strong> We are working closely
                 with their dedicated Instagram marketing designer, enhancing
                 Sakura Ramen's online presence and engagement. This initiative
                 has included strategic outreach to local influencers to amplify
-                their reach.
-                <br />
-                <strong>Facebook Coordination:</strong> Collaboration is
-                underway to link Instagram with their newly created Facebook
-                page for cohesive social media management.
+                their reach. Collaboration is underway to link Instagram with
+                their newly created Facebook page for cohesive social media
+                management.
               </p>
             </div>
             <div className="md:w-1/3 w-full">
@@ -82,11 +80,11 @@ const SakuraRamen = () => {
                 Event Participation
               </h2>
               <p className="text-base md:text-xl">
-                <strong>Event Participation:</strong> We will be assisting
-                Sakura Ramen in participating in key events such as “Bluefin
-                Tuna Cutting Event” collaborating with Omakase Kyara and Tian
-                Beverage. We will be responsible for gathering customer feedback
-                and capturing photos and videos to document the events for media
+                <strong>Event Participation:</strong> We are assisting Sakura
+                Ramen in participating in key events such as “Bluefin Tuna
+                Cutting Event” collaborating with Omakase Kyara and Tian
+                Beverage. We are responsible for gathering customer feedback and
+                capturing photos and videos to document the events for media
                 contents. We are also facilitating the necessary application and
                 insurance processes.
                 <br />
@@ -104,7 +102,7 @@ const SakuraRamen = () => {
                 Eye-catching New Menu Items
               </h2>
               <p className="text-base md:text-xl">
-                Instagrammable Desserts: Considering the introduction of unique,
+                <strong>Instagrammable Desserts:</strong> Considering the introduction of unique,
                 Instagrammable desserts like kakigori (Japanese shaved ice),
                 leveraging specialized equipment to make them stand out.
               </p>
@@ -132,7 +130,7 @@ const SakuraRamen = () => {
                 Gacha Machine Installation
               </h2>
               <p className="text-base md:text-xl">
-                Novelty Additions: A gacha machine (Japanese toy vending
+                <strong>Novelty Additions:</strong> A gacha machine (Japanese toy vending
                 machine) will be installed at Sakura Ramen, adding an element of
                 fun and attracting more customers. We are testing this idea,
                 inspired by successful implementations at festivals and

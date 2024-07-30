@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="space-y-2 md:space-y-8">
           <p className="text-lg md:text-xl">Contact Us</p>
           <h1 className="text-3xl md:text-5xl font-bold text-[#0D7685] mb-2">
-            Get in touch with us
+            Get in touch with JPN Entertainment
           </h1>
           <p className="text-lg md:text-xl md:mb-8">
             We encourage you to get in touch with us for any inquiries or

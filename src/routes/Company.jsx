@@ -9,16 +9,16 @@ const Company = () => {
       <div className="text-black mx-4 md:mx-[25%] py-8">
         {/* Title */}
         <h1 className="text-3xl md:text-4xl text-[#0D7685] font-bold py-8 text-center">
+          JPN Entertainment LLC <br />
           HOW IT BEGAN
         </h1>
         <p className="mb-8">
-          Our story begins at a friend's birthday party in Vegas. It was there
-          that we met, and through conversation, discovered we both shared an
-          entrepreneurial spirit. The more we talked, the clearer it became:
-          this wasn't just a party chat.<br/> We were onto something big. The night
-          that started as a simple celebration quickly turned into the beginning
-          of an exciting new venture. So, in the heart of Vegas, our partnership
-          was born.
+          JPN Entertainment LLC was founded in 2023 by Art Hirano. With a unique
+          background spanning both the United States and Japan, Art developed a
+          deep understanding of both cultures. During visits to Las Vegas
+          beginning in 2018, he was captivated by the city's vibrant energy and
+          saw an opportunity to introduce authentic Japanese experiences. This
+          vision led to the establishment of JPN Entertainment LLC.
         </p>
 
         {/* Team Members */}
@@ -33,10 +33,16 @@ const Company = () => {
                 Founder & Member
               </p>
               <p className="text-m md:text-m text-gray-600 min-h-[9rem]">
-                Seasoned Business Leader with 15+ Years' Experience. Drove growth at
-                a group companies of a well-known Tokyo Stock Exchange listed
-                service industry leaders. Fluent and have strong writing skills in
-                English and Japanese.
+                - Graduate of the Department of Management, Faculty of
+                Economics, Gakushuin University <br />
+                - Seasoned business leader with 15+ years of experience
+                <br />
+                - Proven track record of driving growth at multiple companies
+                within leading Tokyo Stock Exchange-listed service industry
+                groups
+                <br />
+                - Fluent in English and Japanese with strong writing abilities
+                <br />
               </p>
             </div>
             <img

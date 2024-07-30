@@ -19,7 +19,7 @@ const Header = () => {
         </motion.div>
 
         <motion.div {...slideAnimation("up", 1.2)} className="">
-          <p className="text-white w-full md:w-[80%] lg:w-[70%] text-center m-auto">
+          <p className="text-white w-full md:w-[80%] lg:w-[70%] text-center m-auto text-xl">
             Our mission is to bridge the gap between Japan and Las Vegas,
             enriching the world by facilitating Japanese companies' entry into
             the Vegas market, fostering connections between local businesses,

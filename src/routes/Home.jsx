@@ -6,7 +6,6 @@ import Header from '../components/Header'
 import NavBar from '../components/NavBar'
 import Props from '../components/Props'
 import Service from '../components/Service'
-import Team from '../components/Team'
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
         <About/>
         <Props/>
         <Service/>
-        <Team/>
         <ContactWithImage/>
         <Footer/>
     </div>    

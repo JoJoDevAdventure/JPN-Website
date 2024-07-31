@@ -1,10 +1,23 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 const Company = () => {
   return (
     <div className="bg-white">
+      <Helmet>
+        <title>About Our Company - JPN Entertainment LLC</title>
+        <meta
+          name="description"
+          content="Learn about JPN Entertainment LLC, founded by Art Hirano. Discover our journey, vision, and the team that bridges Japan and the US."
+        />
+        <meta
+          name="keywords"
+          content="JPN Entertainment, Art Hirano, Japan, US, business, company history, team"
+        />
+        <meta name="author" content="JPN - Entertainment" />
+      </Helmet>
       <NavBar />
       <div className="text-black mx-4 md:mx-[25%] py-8">
         {/* Title */}

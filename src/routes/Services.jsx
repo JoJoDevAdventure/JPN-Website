@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
@@ -6,6 +7,18 @@ import NavBar from "../components/NavBar";
 const Services = () => {
   return (
     <div className="bg-[#CFE4E7] min-h-screen">
+      <Helmet>
+        <title>Our Services - JPN Entertainment</title>
+        <meta
+          name="description"
+          content="Discover the top-tier services offered by JPN Entertainment, including marketing consultation, entertainment, and more, to help bridge Japan and the US."
+        />
+        <meta
+          name="keywords"
+          content="JPN Entertainment, services, marketing consultation, entertainment, Japan, US, business support"
+        />
+        <meta name="author" content="JPN - Entertainment" />
+      </Helmet>
       <NavBar />
       <div className="relative text-black mx-4 md:mx-[150px]">
         {/* Title */}

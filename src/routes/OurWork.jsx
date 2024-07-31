@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
@@ -6,6 +7,18 @@ import NavBar from "../components/NavBar";
 const OurWork = () => {
   return (
     <div className="bg-[#CFE4E7] min-h-screen">
+      <Helmet>
+        <title>Our Work - JPN Entertainment</title>
+        <meta
+          name="description"
+          content="Explore our past achievements at JPN Entertainment, showcasing successful projects like Sakura Ramen that bridge Japan and the US."
+        />
+        <meta
+          name="keywords"
+          content="JPN Entertainment, past achievements, projects, Sakura Ramen, Japan, US, business"
+        />
+        <meta name="author" content="JPN - Entertainment" />
+      </Helmet>
       <NavBar />
       <div className="relative text-black mx-4 md:mx-[150px] h-[60vh]">
         {/* Title */}
@@ -27,7 +40,7 @@ const OurWork = () => {
               </h3>
             </div>
           </NavLink>
-
+          {/* More cards can be added here */}
         </div>
       </div>
       <Footer />

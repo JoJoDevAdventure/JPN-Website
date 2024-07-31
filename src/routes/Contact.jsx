@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
@@ -48,6 +49,18 @@ const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Contact Us - JPN Entertainment</title>
+        <meta
+          name="description"
+          content="Get in touch with JPN Entertainment for any inquiries or questions. We're here to help and provide the information you need."
+        />
+        <meta
+          name="keywords"
+          content="contact, JPN Entertainment, inquiries, questions, support"
+        />
+        <meta name="author" content="JPN - Entertainment" />
+      </Helmet>
       <NavBar />
       <div className="mx-4 md:mx-[150px] mt-12 grid grid-cols-1 md:grid-cols-2 md:gap-12 gap-6">
         {/* Left Section */}

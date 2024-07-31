@@ -45,18 +45,18 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/services">Services</NavLink>
+            <NavLink to="/services">Services</NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/our-work">Our Work</NavLink>
+            <NavLink to="/our-work">Our Work</NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink exact to="/JPN-Website/company">
+            <NavLink exact to="/company">
               Company
             </NavLink>
           </li>
           <li className="underline-offset hover:text-[#0D7685]">
-            <NavLink to="/JPN-Website/contact">Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>
@@ -86,7 +86,7 @@ const NavBar = () => {
               </li>
               <li className="mb-4">
                 <NavLink
-                  to="/JPN-Website/services"
+                  to="/services"
                   activeClassName="text-[#0D7685] font-bold"
                   onClick={toggleMenu}
                 >
@@ -95,7 +95,7 @@ const NavBar = () => {
               </li>
               <li className="mb-4">
                 <NavLink
-                  to="/JPN-Website/our-work"
+                  to="/our-work"
                   activeClassName="text-[#0D7685] font-bold"
                   onClick={toggleMenu}
                 >
@@ -103,13 +103,13 @@ const NavBar = () => {
                 </NavLink>
               </li>
               <li className="mb-4">
-                <NavLink exact to="/JPN-Website/company">
+                <NavLink exact to="/company">
                   Company
                 </NavLink>
               </li>
               <li className="mb-4">
                 <NavLink
-                  to="/JPN-Website/contact"
+                  to="/contact"
                   activeClassName="text-[#0D7685] font-bold"
                   onClick={toggleMenu}
                 >

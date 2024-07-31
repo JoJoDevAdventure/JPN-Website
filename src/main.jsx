@@ -19,23 +19,23 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
-          <Route path="/JPN-Website/company" element={<Company />} />
-          <Route path="/JPN-Website/our-work" element={<OurWork />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/our-work" element={<OurWork />} />
           <Route
-            path="/JPN-Website/our-work/sakura-ramen"
+            path="/our-work/sakura-ramen"
             element={<SakuraRamen />}
           />
-          <Route path="/JPN-Website/services" element={<Services />} />
+          <Route path="/services" element={<Services />} />
           <Route
-            path="/JPN-Website/services/marketing"
+            path="/services/marketing"
             element={<Marketing />}
           />
           <Route
-            path="/JPN-Website/services/entertainment"
+            path="/services/entertainment"
             element={<Entertainment />}
           />
-          <Route path="/JPN-Website/services/other" element={<Other />} />
-          <Route path="/JPN-Website/contact" element={<Contact />} />
+          <Route path="/services/other" element={<Other />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </HashRouter>

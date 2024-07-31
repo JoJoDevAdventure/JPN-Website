@@ -38,7 +38,7 @@ const Service = () => {
               experience and knowledge, we tailor solutions to meet the specific
               needs of each client.
             </p>
-            <NavLink to="/JPN-Website/services/marketing" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
+            <NavLink to="/services/marketing" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
               Learn More &rarr;
             </NavLink>
           </div>
@@ -59,7 +59,7 @@ const Service = () => {
               traditional performances, including Yosakoi, Taiko drumming, Tea
               Ceremony, Shodo calligraphy, Kyudo archery, and more.
             </p>
-            <NavLink to="/JPN-Website/services/entertainment" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
+            <NavLink to="/services/entertainment" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
               Learn More &rarr;
             </NavLink>
           </div>
@@ -81,7 +81,7 @@ const Service = () => {
               festivals. We cater to both locals and visitors, offering an
               unforgettable culinary experience.
             </p>
-            <NavLink to="/JPN-Website/services/other" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
+            <NavLink to="/services/other" className="font-bold text-black group-hover:text-white transition-transform hover:translate-x-2">
               Learn More &rarr;
             </NavLink>
           </div>

@@ -32,7 +32,7 @@ const Services = () => {
               Translation service
             </p>
             <NavLink
-              to="/JPN-Website/services/marketing"
+              to="/services/marketing"
               className="font-bold text-white bg-[#0D7685] w-full py-2 md:py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]"
             >
               Learn More &rarr;
@@ -59,7 +59,7 @@ const Services = () => {
               <br />
             </p>
             <NavLink
-              to="/JPN-Website/services/entertainment"
+              to="/services/entertainment"
               className="font-bold text-white bg-[#0D7685] w-full py-2 md:py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]"
             >
               Learn More &rarr;
@@ -84,7 +84,7 @@ const Services = () => {
               Japanese cuisine. <br />
             </p>
             <NavLink
-              to="/JPN-Website/services/other"
+              to="/services/other"
               className="font-bold text-white bg-[#0D7685] w-full py-2 md:py-4 border-[#ffffff] border-2 hover:bg-transparent hover:border-[#0D7685] hover:text-[#0D7685]"
             >
               Learn More &rarr;

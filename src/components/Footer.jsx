@@ -21,7 +21,7 @@ const Footer = () => {
           <li className="duration-300 transition-all ease-in transform hover:-translate-y-2">
             <NavLink to="/contact">Contact</NavLink>
           </li>
-        </ul>
+        </ul> 
       </div>
       <div className="border-b-2 border-[#0D7685] w-full h-1 mb-4"></div>
       <div className="flex flex-col md:flex-row justify-between items-center">

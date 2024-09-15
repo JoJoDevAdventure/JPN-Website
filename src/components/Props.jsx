@@ -63,10 +63,10 @@ const Props = () => {
                 Japanese culture
               </h3>
               <p className="text-lg">
-                such as kimono, tea ceremony, and Yosakoi, as well as subculture
-                such as anime, games, and music, are gaining popularity around
+              such as kimono, tea ceremony and traditional arts, as well as subculture
+              such as anime, games, and music, are gaining popularity around
                 the world. We want to further spread these in Las Vegas so that
-                people of all races can learn about the charm of Japan.
+                people from all backgrounds can learn about the charm of Japan.
               </p>
             </div>
           </div>

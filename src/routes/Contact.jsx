@@ -98,7 +98,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg md:text-2xl font-semibold text-[#0D7685]">Email</h3>
-                <p className="text-l md:text-xl">lasvegas@jpn-ent.net</p>
+                <p className="text-l md:text-xl">entertainjpn@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">

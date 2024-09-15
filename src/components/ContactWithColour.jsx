@@ -11,7 +11,7 @@ const ContactWithColour = () => {
           any questions you may have!
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-          <p className="text-sm md:text-base font-light mb-4 md:mb-0">lasvegas@jpn-ent.net</p>
+          <p className="text-sm md:text-base font-light mb-4 md:mb-0">entertainjpn@gmail.com</p>
           <NavLink
             to="/contact"
             className="bg-white hover:bg-transparent hover:text-white text-[#0D7685] font-semibold py-2 px-4 border-[#ffffff] border-2 transition duration-300"

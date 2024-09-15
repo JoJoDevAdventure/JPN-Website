@@ -24,7 +24,7 @@ const OtherServices = () => {
         </h2>
 
         <h2 className="text-xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-          Sweet Treats:
+          Sweet Treats
         </h2>
         <p className="mb-6 text-lg md:text-xl">
           Indulge in refreshing shaved ice, delectable taiyaki (fish-shaped cakes), fluffy imagawayaki (pancakes), and matcha ice cream.
@@ -55,7 +55,7 @@ const OtherServices = () => {
           Join Us at Your Next Festival
         </h2>
         <p className="mb-6 text-lg md:text-xl">
-          Whether you’re organizing a festival, seeking catering services, or simply craving authentic Japanese cuisine, we invite you to connect with us.
+          Whether you're organizing a festival, seeking catering services, or simply craving authentic Japanese cuisine, we invite you to connect with us.
         </p>
       </div>
       <ContactWithColour />

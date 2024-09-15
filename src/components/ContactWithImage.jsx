@@ -11,7 +11,7 @@ const ContactWithImage = () => {
           any questions you may have!
         </p>
         <div className="flex flex-col sm:flex-row text-center gap-2 sm:gap-10 justify-center items-center mt-4">
-          <p className="font-light">lasvegas@jpn-ent.net</p>
+          <p className="font-light">entertainjpn@gmail.com</p>
           <NavLink
             to="/contact"
             className="bg-white hover:bg-transparent hover:text-white text-[#0D7685] font-semibold py-2 px-4 border-[#ffffff] border-2"

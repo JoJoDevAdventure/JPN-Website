@@ -9,23 +9,23 @@ const SakuraRamen = () => {
       <NavBar />
       <div className="w-full">
         {/* Top section with three images */}
-        <div className="flex flex-wrap justify-center md:justify-start">
+        <div className="flex justify-center md:justify-start h-[400px] object-contain w-auto">
           {/* Hidden on mobile */}
           <img
             src="./sakura1.jpg"
             alt="Placeholder Image 1"
-            className="hidden md:block w-1/3 h-auto"
+            className="hidden md:block w-1/3 h-full object-top object-cover"
           />
           <img
             src="./sakura2.jpg"
             alt="Placeholder Image 2"
-            className="w-full md:w-1/3 h-auto"
+            className="w-full md:w-1/3 h-full"
           />
           {/* Hidden on mobile */}
           <img
             src="./sakura3.jpg"
             alt="Placeholder Image 3"
-            className="hidden md:block w-1/3 h-auto"
+            className="hidden md:block w-1/3 h-full object-cover object-top"
           />
         </div>
         <div className="mx-4 md:mx-[150px] mt-12">
@@ -113,29 +113,6 @@ const SakuraRamen = () => {
                 alt="Placeholder Image 6"
                 className="w-full h-auto"
               />
-            </div>
-          </div>
-
-          {/* 4th Div */}
-          <div className="flex flex-col-reverse md:flex-row mb-12 gap-10 items-center">
-            <div className="md:w-1/3 w-full flex justify-center">
-              <img
-                src="./sakura7.jpg"
-                alt="Placeholder Image 7"
-                className="w-[70%] h-auto"
-              />
-            </div>
-            <div className="md:w-2/3 w-full">
-              <h2 className="text-2xl md:text-3xl font-semibold text-[#0D7685] mb-4">
-                Gacha Machine Installation
-              </h2>
-              <p className="text-base md:text-xl">
-                <strong>Novelty Additions:</strong> A gacha machine (Japanese toy vending
-                machine) will be installed at Sakura Ramen, adding an element of
-                fun and attracting more customers. We are testing this idea,
-                inspired by successful implementations at festivals and
-                family-oriented target markets.
-              </p>
             </div>
           </div>
         </div>

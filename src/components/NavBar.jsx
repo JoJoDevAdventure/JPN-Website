@@ -50,11 +50,11 @@ const NavBar = () => {
           <li className="underline-offset hover:text-[#0D7685]">
             <NavLink to="/our-work">Our Work</NavLink>
           </li>
-          <li className="underline-offset hover:text-[#0D7685]">
+          {/* <li className="underline-offset hover:text-[#0D7685]">
             <NavLink exact to="/company">
               Company
             </NavLink>
-          </li>
+          </li> */}
           <li className="underline-offset hover:text-[#0D7685]">
             <NavLink to="/contact">Contact</NavLink>
           </li>
@@ -102,11 +102,11 @@ const NavBar = () => {
                   Our Work
                 </NavLink>
               </li>
-              <li className="mb-4">
+              {/* <li className="mb-4">
                 <NavLink exact to="/company">
                   Company
                 </NavLink>
-              </li>
+              </li> */}
               <li className="mb-4">
                 <NavLink
                   to="/contact"
